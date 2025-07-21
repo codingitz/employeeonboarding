@@ -27,11 +27,11 @@ a:hover {
 }
 
 body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
   min-height: 100vh;
+  min-width: 100vw;
+  background: linear-gradient(to bottom right, #3b82f6, #ec4899);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 h1 {
